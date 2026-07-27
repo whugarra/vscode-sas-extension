@@ -1,0 +1,76 @@
+body {
+  padding: 0;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+html,
+body,
+.data-viewer {
+  height: 100%;
+}
+
+.header-icon.float,
+.header-icon.date,
+.header-icon.time,
+.header-icon.date-time,
+.header-icon.currency,
+.header-icon.char {
+  width: 16px;
+  height: 22px;
+  margin-right: 0.25rem;
+}
+
+/* DEFAULT ICONS */
+
+.header-icon.float {
+  background: url(../../../icons/light/tableHeaderNumericTypeLight.svg) center
+    no-repeat;
+}
+
+.header-icon.time,
+.header-icon.date-time,
+.header-icon.date {
+  background: url(../../../icons/light/tableHeaderDateLight.svg) center
+    no-repeat;
+}
+
+.header-icon.currency {
+  background: url(../../../icons/light/tableHeaderCurrencyLight.svg) center
+    no-repeat;
+}
+
+.header-icon.char {
+  background: url(../../../icons/light/tableHeaderCharacterTypeLight.svg) center
+    no-repeat;
+}
+
+/* DARK MODE ICONS */
+
+.vscode-dark .header-icon.float,
+.vscode-high-contrast .header-icon.float {
+  background: url(../../../icons/dark/tableHeaderNumericTypeDark.svg) center
+    no-repeat;
+}
+
+.header-icon.time,
+.header-icon.date-time,
+.vscode-dark .header-icon.date,
+.vscode-high-contrast .header-icon.date {
+  background: url(../../../icons/dark/tableHeaderDateDark.svg) center no-repeat;
+}
+
+.vscode-dark .header-icon.currency,
+.vscode-high-contrast .header-icon.currency {
+  background: url(../../../icons/dark/tableHeaderCurrencyDark.svg) center
+    no-repeat;
+}
+
+.vscode-dark .header-icon.char,
+.vscode-high-contrast .header-icon.char {
+  background: url(../../../icons/dark/tableHeaderCharacterTypeDark.svg) center
+    no-repeat;
+}

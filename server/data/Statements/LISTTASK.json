@@ -1,0 +1,11 @@
+{
+  "Keywords": {
+    "Keyword": {
+      "Name": "_ALL_",
+      "Type": "S",
+      "Help": {
+        "#cdata": "Provides status information about all current tasks."
+      }
+    }
+  }
+}
