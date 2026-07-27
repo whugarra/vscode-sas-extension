@@ -1247,7 +1247,7 @@
   },
   "devDependencies": {
     "@eslint/compat": "1.2.9",
-    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+    "@trivago/prettier-plugin-sort-imports": "^6.0.2",
     "@types/chai": "^4.3.11",
     "@types/mocha": "^10.0.10",
     "@types/node": "^22.15.29",
